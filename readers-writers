@@ -1,0 +1,10 @@
+The R-W problem is another classic problem for which design of synchronization and concurrency mechanisms can be tested.  
+
+ Critical Section is the file or shared resource.
+    There is a data area that is shared among a number of processes.
+    Any number of readers may simultaneously write to the data area.
+    Only one writer at a time may write to the data area.
+    If a writer is writing to the data area, no reader may read it.
+    If there is at least one reader reading the data area, no writer may write to it.
+    Readers only read and writers only write
+    A process that reads and writes to a data area must be considered a writer (consider producer or consumer)
