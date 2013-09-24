@@ -1,0 +1,35 @@
+MONITOR IMPLEMENTATION
+
+PROBLEM: READER- WRITER PROBLEM
+Motivation:  Consider a shared database
+Two classes of users:
+Îù	Readers ÎíÎñ never modify database
+Îù	Writers ÎíÎñ read and modify database
+
+Correctness Constraints:
+Îù	Readers can access database when no writers
+Îù	Writers can access database when no readers or writers
+Îù	Only one thread manipulates state variables at a time
+
+Basic structure of a solution:
+Îù	Reader()
+   Wait until no writers
+      Access data base
+         Check out ÎíÎñ wake up a waiting writer
+	 Îù	Writer()
+	    Wait until no active readers or writers
+	       Access database
+	          Check out ÎíÎñ wake up waiting readers or writer
+
+		  Language used:  HTML and JavaScript
+		  WORKING:
+		  In this problem of reader writer IÎéÎ÷m using three readers and four writers accessing a database. There is a critical section where writer can write something or can apply quires on database. There is one common lock for both reader and writer where condition is checked. If the condition is true then the will be open and they can access the data but one at a time. And if condition is false then reader and writer will wait in their corresponding waiting queues.   
+		  Conditions:
+		  Îù	A writer can enter if there are no other active writers and no readers are waiting
+		  Îù	A reader can enter if there are no writers active or waiting
+		  Îù	When a writer finishes, it checks to see if any readers are waiting if so, it lets one of them enter that one will let the next one enter, etcÎíÎõ
+		  Îù	Similarly, when a reader finishes, if it was the last reader, it lets a writer in (if any is there)
+
+
+
+
