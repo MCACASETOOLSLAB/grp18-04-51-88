@@ -5,3 +5,19 @@ grp18-04-51-88
  
  
  Language used :  Html,javascript
+ 
+ Resorce Required :Best Viewed and work in Crome Web browser
+ 
+ 
+ critical_section_problem_working:   When we click writer to start and the reader to start ,both will start thier work.
+ 
+ 
+ Semaphore_with_busy_waiting: When we start writer to write by clicking once on wait it will start and write in the textarea
+ and during this if we start reader also by clicking once on wait it will not go to text area it keeps checking whether writer 
+ moved by pressing a signal button or not.The same with reader is reading and writer is waiting then it will also a busy wait
+ and since it keeps checking or spinning around the textarea or critical section ,it is known as spin lock.
+ 
+ Semaphore_without_busy_waiting:  In this ig a reader is reading and if we start writer then it will not start.It goes in the 
+ blocked state and if reader move from critical section by pressing signal then we have to wake up writer by pressing wake_up
+ button near by it and vice versa.
+ 
