@@ -21,7 +21,7 @@ grp18-04-51-88
  blocked state and if reader move from critical section by pressing signal then we have to wake up writer by pressing wake_up
  button near by it and vice versa.
  
- Monitor: In this there is three readers and two writers,one reader's waiting queue,one writer's waiting queue.There is an critical section 
- in which shared data values of database will be changed.There is a lock which is used to check the conditions whether the readers or writer 
+ Monitor: In this there are three readers and two writers,one reader's waiting queue,one writer's waiting queue.There is a critical section 
+ in which shared data values of database will be changed which is a textbox.There is a lock which is used to check the conditions whether the readers or writer 
  can  be enter in the critical section.There are arrows which shows the direction of the reader/writer.
  
