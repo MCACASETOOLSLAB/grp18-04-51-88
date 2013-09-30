@@ -25,3 +25,12 @@ grp18-04-51-88
  in which shared data values of database will be changed which is a textbox.There is a lock which is used to check the conditions whether the readers or writer 
  can  be enter in the critical section.There are arrows which shows the direction of the reader/writer.
  
+ 
+ 
+ To run this software download the zip file by clicking right side button on the github and extract all the files in your system
+ and run the finalview.html file.Select any one option from the bottom navigation bar and keep learning.
+ 
+                              
+                                          
+                                             HAPPY LEARNING,E-LEARNING!!!!!!
+ 
