@@ -1,0 +1,196 @@
+<html>
+<head>
+<style type="text/css">
+
+#t1
+{
+	position:absolute;
+	left:420px;
+}
+
+#b1
+{
+	position:absolute;
+	left:100px;
+	top:700px;
+}
+
+#b2
+{
+	position:absolute;
+	right:10px;
+	top:700px;
+
+}
+
+
+
+#b3
+{
+	position:absolute;
+	left:100px;
+	top:450px;
+
+}
+
+#b4
+{
+	position:absolute;
+	right:100px;
+	top:500px;
+
+}
+
+#b5
+{
+     	position:absolute;
+     	left:600px;
+}
+
+#b6
+{
+     	position:absolute;
+        left:10px;
+	top:250px;
+
+}
+
+
+#b7
+{
+     	position:absolute;
+	left:375px;
+	top:300px;
+}
+
+#b8
+{
+     	position:absolute;
+        right:450px;
+	top:300px;
+
+}
+
+#b9
+{
+     	position:absolute;
+        right:10px;
+	top:250px;
+
+}
+ul
+{
+position:absolute;
+left:5px;
+top:50px;
+
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+
+}
+li
+{
+float:left;
+}
+a:link,a:visited
+{
+display:block;
+width:326px;
+color:#FFFFFF;
+background-color:black;
+text-align:center;
+padding:0px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:SlateGray;
+}
+
+
+</style>
+</head>
+<body>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										critical section
+
+
+
+<div id="t1">
+	<textarea rows="10" cols="50" name="resi" align="center">
+	</textarea>
+</div>
+
+<div id="b6">
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;waiting queue of readers<br>
+	<br><img src="http://www.kidsmathgamesonline.com/images/pictures/shapes/rectangle.jpg" alt="some_text" height="100px" width="300px">
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+<div id="b5">
+	<br><img src="http://phandroid.s3.amazonaws.com/wp-content/uploads/2012/05/Lock-cartoon.png" alt="some_text" height="150px" width="100px">
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOCK
+</div>
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>Readers can access database when no writers
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Writers can access database when no readers or writers
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="b1">
+	<img src="http://www.mobileapples.com/Assets/Content/Themes/vodafoneby_vh2bljik.jpg" alt="some_text" height="150px" width="100px">
+</div>
+ 
+
+ 
+<div id="b7">
+	<img src="http://www.siteres.com/images/uploaded/arrow1_up-right_lg_red.gif" alt="some_text"height="300px" width="100px">
+</div>
+<div id="b8">
+	<img src="http://www.siteres.com/images/uploaded/arrow1_up-left_lg_red.gif" alt="some_text"height="300px" width="100px">
+</div>
+
+<div id="b9">
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;waiting queue of writers<br>
+	<br><img src="http://www.kidsmathgamesonline.com/images/pictures/shapes/rectangle.jpg" alt="some_text" height="100px" width="300px">
+</div>
+ 
+ 
+
+<div id="b3">
+	<input type="radio" name="animation"onclick="s1()">Reader1<br>
+	<br><img src="http://www.mobileapples.com/Assets/Content/Themes/vodafoneby_vh2bljik.jpg" alt="some_text" height="150px" width="100px">
+	<br><input type="radio" name="animation"onclick="s1()">Reader2<br>
+	<br><img src="http://www.mobileapples.com/Assets/Content/Themes/vodafoneby_vh2bljik.jpg" alt="some_text" height="150px" width="100px">
+        <br><br><br><input type="radio" name="animation"onclick="s1()">Reader3<br>
+	<br><br><img src="http://www.mobileapples.com/Assets/Content/Themes/vodafoneby_vh2bljik.jpg" alt="some_text" height="150px" width="100px">
+	
+</div>
+
+<div id="b4">
+	<input type="radio" name="animation"onclick="s2()">Writer1<br>
+	<img src="http://us.123rf.com/400wm/400/400/johan2011/johan20111108/johan2011110800043/10226805-3d-little-human-character-writing-with-a-pen-green.jpg" alt="some_text"height="150px" width="100px">
+	<br><br><br><br><br><input type="radio" name="animation"onclick="s3()">Writer2<br>
+        <img src="http://us.123rf.com/400wm/400/400/johan2011/johan20111108/johan2011110800043/10226805-3d-little-human-character-writing-with-a-pen-green.jpg" alt="some_text"height="150px" width="100px">
+	
+</div>
+<ul>
+<li><a href="critical_section.html">Critical_section_problem</a></li><br><br>
+<li><a href="semaphore1.html">Semaphore_with_busy_waiting</a></li><br><br>
+<li><a href="semaphore2.html">Semaphore_without_busy_waiting</a></li><br><br>
+<li><a href="Monitor_implementation.html">Monitor</a></li>
+</ul>
+</body>
+</html>
